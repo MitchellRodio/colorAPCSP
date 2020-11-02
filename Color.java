@@ -13,12 +13,12 @@ public class Color {
 		
 		public void darkLighten(int red, int blue, int green) {
 			
-    Scanner scanPercent = new Scanner(System.in);   
-    System.out.println("Enter the % to lighten / darken");
+    		Scanner scanPercent = new Scanner(System.in);   
+   		 System.out.println("Enter the % to lighten / darken");
 
-    int percent = scanPercent.nextInt();  
+    		int percent = scanPercent.nextInt();  
    
-   return "["+red * percent +", "+green * percent +", "+blue * percent +"]";
+   		return "["+red * percent +", "+green * percent +", "+blue * percent +"]";
     
     
 			
