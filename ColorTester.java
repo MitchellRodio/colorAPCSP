@@ -1,4 +1,4 @@
-import package.Color;
+import package.name.Color.*;
 
 public class ColorTester {
 
