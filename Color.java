@@ -5,14 +5,12 @@ class Color
 
 // equalsIgnoreCase = Ignore casing in user response ex: value OR VaLuE
 // | (pipe) = Make one output anothers input
-// https://stackoverflow.com/questions/11743267/get-random-numbers-in-a-specific-range-in-java Random int high bound
-// / lower bound reference
 
 
     int green; 
     int red;
     int blue;
-    int c;
+ // int c;
     String response;
     public static void main( String args[] )
     {
@@ -53,7 +51,7 @@ class Color
             }
             if(obj.response.equalsIgnoreCase("random"))
             {
-                obj.value();
+                obj.colorCreate();
             }
             if(obj.response.equalsIgnoreCase("exit"))
             {
@@ -63,11 +61,11 @@ class Color
         }     
     }
 //  Red, Green Blue | Storage
-    public void value()
+    public void colorCreate()
     {
         Random r = new Random();
-// Same as c = c + 1;
-        c++;
+// Same as c = c + 1; 
+        // c++; (Not needed as of now)
 //      Lowest random int can reach
         int lowerbound= 0;     
 //      Highest random int can reach
