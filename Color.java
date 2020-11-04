@@ -2,6 +2,13 @@ import java.util.Scanner;
 import java.util.Random;
 class Color 
 {
+
+// equalsIgnoreCase = Ignore casing in user response ex: value OR VaLuE
+// | (pipe) = Make one output anothers input
+// https://stackoverflow.com/questions/11743267/get-random-numbers-in-a-specific-range-in-java Random int high bound
+// / lower bound reference
+
+
     int green; 
     int red;
     int blue;
