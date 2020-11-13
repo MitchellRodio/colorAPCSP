@@ -1,4 +1,4 @@
-public class lunchAccount {
+public class LunchAccount {
     private String student;
     public int id;
     private double balence;
